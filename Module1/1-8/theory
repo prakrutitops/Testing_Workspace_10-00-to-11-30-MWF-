@@ -1,0 +1,38 @@
+SDLC->Software Development Lifecycle
+
+1)Requirement Gathering
+2)Analysis ->What,How
+3)Design->
+4)Implementation
+5)Testing
+6)Maintenance
+
+1)corrective maintenance:finding and correcting defects
+2)adaptive maintenance:pass your solution to the new platform and make it more adaptive
+3)perfective maintenance:make it perfect and add some new functionalities which is not required
+
+Testing:
+testing is a process used to identify correctness,completeness,quality of developed computer software.
+
+error->a mistake which is done by developer in coding
+defect-> if that error is found by tester then it's called defect
+bug->if defect will accept by developer then it's called bug
+
+
+Activity:Single Process
+Process:Multiple Process
+
+Testing is a process of verification and validation
+
+1) Static Testing : Static Testing means a testing which does not work with code execution
+
+2) Dynamic Testing : You have to execute the code
+
+
+there is 2 type of requirements
+1)Functional requirement
+2)NonFunctional requirement
+
+Functional Testing: Parameters
+Non Functional Testing : Speed,Performance,Scalability
+
