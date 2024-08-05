@@ -1,0 +1,65 @@
+Software Archi
+
+1)Presentation Layer->Represent Components
+
+2)Application Layer[Business Logic Layer]
+
+3)Data Layer
+
+System Environment Flow:
+Dev -> QA -> UAT[User Acceptance Testing]->Prod 
+
+Models:
+1)Waterfall[6 Months]
+->Short time Project
+->Requirement Fixed
+
+2)Iterative
+3)Spiral
+4)Agile
+5)V-Model
+
+OOP : Object Oriented Programming
+
+1)Object : Any entity which has own state and behaviour
+ex:pen,paper etc..
+
+2)Class: Collection of objects
+ex:human body
+
+3)Abstraction:Hiding internal details and showing funcitonalities
+ex:login page
+
+4)Encapsulation:Wrapping up of data or binding of data
+ex:capsule
+
+5)Inheritance:When one object acquire all the properties and behviour of parent class
+ex:father-son
+
+6)Polymorphism:Many ways to perform anything
+ex:
+1)Method Overloading
+2)Method Overriding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
