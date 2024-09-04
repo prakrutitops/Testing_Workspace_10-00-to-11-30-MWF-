@@ -1,0 +1,79 @@
+Software Testing Levels:
+1)Unit Testing
+==============================================================
+2)Integration Testing
+Types of Integration Testing:
+=> Component Integration Testing
+    i)Function Testing
+   ii)Non functional Testing
+
+=> System Integration Testing
+
+Integration Testing Methods:
+
+1)Big Bang Integration Testing
+
+2)Incremental Integration Testing
+ ->Top Down Approach
+ ->Bottom Up Approach 
+==============================================================
+3)System Testing:
+
+1)Functional System testing:[Manual]
+=>Black Box Testing:
+ Techniques
+ a)Eqvivalence Partitioning
+ b)Boundry value analysis
+ c)decision tables
+ d)state transition Testing
+ e)use case testing
+ f)other black box testing
+
+=>White Box Testing
+ a)statement Coverage
+ b)Decision Coverage
+ c)Condition Coverage
+
+
+=>Experience Based Testing
+  a)Adhoc Testing
+  b)Grey Box Testing
+  c)Exploratory Testing  
+
+=>Smoke Testing
+
+=>Sanity Testing 
+
+=>End to End Testing
+
+
+
+2)Non Functional System Testing:[Automation]
+=>Usability Testing
+=>Compatibility Testing
+=>GUI Testing
+=>Security Testing
+=>Performance Testing
+=>Stress Testing
+=>Load Testing
+
+
+
+==============================================================
+
+Retesting
+Regression Testing
+
+==============================================================
+System Integration Testing
+
+==============================================================
+4)Acceptance Testing
+Alpha Testing
+Beta Testing
+
+===================================================================
+
+Maintenance Testing
+
+======================================================================
