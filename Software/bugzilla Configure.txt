@@ -1,0 +1,29 @@
+server Configuration
+
+Web server port :- 5050
+
+Database server port :- 5051
+
+Root Pwd :- root
+Bugs pwd :- tops
+
+
+
+Email :- tops@tops-int.com
+Real Name :- tops
+pwd :- tops123
+
+SMTP :- mail.gmail.com
+
+
+username:tops
+password:tops123
+
+
+How to Access bugzilla
+
+UrL :- localhost:5050
+
+ID :- tops@tops-int.com
+
+pwd :- tops123
