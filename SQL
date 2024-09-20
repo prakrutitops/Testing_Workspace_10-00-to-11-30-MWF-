@@ -1,0 +1,62 @@
+DDL->Data Definition Language
+Commands:Create,Alter,Drop,truncate,rename
+
+1)Create Database:
+CREATE DATABASE database_name
+CREATE DATABASE sagar
+
+2)Create Table:
+CREATE TABLE TABLE_NAME(colname datatype...)
+CREATE TABLE info(id int PRIMARY KEY AUTO_INCREMENT,name varchar(30))
+
+3)Add Column:
+ALTER TABLE TABLE_NAME ADD colname datatype
+ALTER TABLE info ADD surname varchar(60)
+
+4)Particular Column After Column:
+ALTER TABLE TABLE_NAME ADD colname datatype AFTER colname
+ALTER TABLE info ADD email varchar(60) AFTER name
+
+5)Chnage Datatype:
+ALTER TABLE TABLE_NAME MODIFY colname datatype
+ALTER TABLE info MODIFY email int
+
+6)Change Column name:
+ALTER TABLE TABLE_NAME CHANGE oldcol newcol datatype
+ALTER TABLE info CHANGE email pincode int 
+
+7)Drop Column:
+ALTER TABLE TABLE_NAME DROP colname
+ALTER TABLE info DROP pincode
+
+8)Rename Table:
+RENAME TABLE TABLE_NAME to NEWTABLE_NAME
+RENAME TABLE info to information 
+
+9)Drop Table:
+DROP TABLE TABLE_NAME
+DROP TABLE information
+
+10)Truncate Table:
+TRUNCATE TABLE TABLE_NAME
+TRUNCATE TABLE information
+
+DML->Data Manipulation Language
+Commands:insert,update,delete
+
+11)insert data:
+INSERT INTO TABLE_NAME (databasefieldname) values ('values')
+INSERT INTO info (name,email,password) values ('a','abcd','1234')
+
+12)multiple value insert data:
+INSERT INTO TABLE_NAME (databasefieldname) values ('values')
+INSERT INTO info (name) values ('a'),('b'),('c'),('d')
+
+13)update data:
+UPDATE TABLE_NAME set databasefieldname='value' where id=?
+UPDATE info set email='a@gmail.com' where id=2
+
+14)delete data:
+DELETE FROM TABLE_NAME WHERE id=?;//syntax
+DELETE FROM info WHERE id=2;
+DELETE FROM info WHERE id=3;
